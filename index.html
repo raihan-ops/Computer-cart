@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Mac Pro</title>
+</head>
+
+<body>
+    <section class="container d-lg-inline-flex mx-5 mt-5 ">
+        <!-- image part -->
+        <div class="me-5 mx-5">
+
+            <img class="img-fluid" src="images/mac.png">
+
+
+        </div>
+
+        <!-- info part -->
+        <div>
+            <div>
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem recusandae dicta sed facilis iusto debitis error accusamus! Itaque, optio cupiditate?</p>
+            </div>
+
+            <div class="mt-4">
+                <h4>Memory </h4>
+                <div id="MemoryButton">
+                    <button type="submit" class="border border-dark rounded-1 myButton">8 GB undefined memory</button>
+                    <button type="submit" class="border border-dark rounded-1 myButton"> 16 GB undefined memory</button>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4>Storage</h4>
+                <div id="storageButton">
+                    <button type="submit" class="border border-dark rounded-1 myButton"> 256GB SSD Storage</button>
+                    <button type="submit" class="border border-dark rounded-1 myButton">512GB SSD Storage</button>
+                    <button type="submit" class="border border-dark rounded-1 myButton"> 1TB SSD Storage</button>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4>Choose your Delivery Option</h4>
+                <div id="deliveryButtion">
+                    <button type="submit" class="border border-dark rounded-1 myButton">Friday,Aug 25 Free Prime
+                        Delivery</button>
+                    <button type="submit" class="border border-dark rounded-1 myButton">Friday,Aug 25 Delivery Charge
+                        $20</button>
+
+                </div>
+
+            </div>
+
+            <!-- table -->
+            <div class="mt-4">
+                <table class="mytable fw-bold mt-2">
+                    <tr>
+                        <td>Best Price</td>
+                        <td>$<span id="bestPriceText">1299</span></td>
+                    </tr>
+                    <tr>
+                        <td>Extra Memory Cost</td>
+                        <td>$<span id="memoryCostText">0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Extra Storage Cost</td>
+                        <td>$<span id="StorageCostText">0</span></td>
+                    </tr>
+                    <tr class="totalRow">
+                        <td>Delivery Charge</td>
+                        <td>$<span id="DeliveryCostText">0</span></td>
+                    </tr>
+                    <tr class="lastRow">
+                        <td>Total Price</td>
+                        <td>$<span id="TotalPriceText">1299</span></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- promo code -->
+            <div class="mt-4">
+                <p class="mb-1"> Add Promo code</p>
+                <div>
+                    <input id="promoCode" type="text" ">
+                    <button id="promoButton" class="bg-danger text-white fw-bold p-2 rounded-2 border-0"
+                        type="submit">Apply</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="container mx-auto">
+<!-- Footer  Total price -->
+    <section class="text-center">
+        <h1> Total : $<span id="FinalPriceText">1299</span> </h1>
+    </section>
+
+    <!-- js for cdn bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- Funtional javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

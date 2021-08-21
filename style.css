@@ -1,0 +1,29 @@
+
+/* For custom Table Desing */
+.mytable{
+    border-collapse: collapse;
+    width: 60%;
+   
+   
+  }
+.mytable tr {
+    
+    
+    text-align: left;
+
+    border-bottom: 0.5px solid rgb(221, 214, 214);
+  }
+  .mytable td{
+      padding: 5px;
+  }
+ .mytable .totalRow{
+    border-bottom: 2px solid black;
+  }
+.mytable .lastRow{
+    border-bottom: none;
+}
+/* Button Hover */
+.myButton:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
